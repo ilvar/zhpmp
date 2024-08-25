@@ -1,6 +1,6 @@
 # zhpmp
 
-Uses Rye
+Uses [Rye](https://rye.astral.sh/)
 
 Uses env vars:
   - `OPENAI_API_KEY` - OpenAI API key
