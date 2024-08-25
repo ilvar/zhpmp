@@ -1,5 +1,9 @@
 # zhpmp
 
+Консольная утилита для работы с системой очереди (ака ЖПМП) в консульствах РФ.
+
+## Prerequisites
+
 Uses [Rye](https://rye.astral.sh/)
 
 Uses env vars:
