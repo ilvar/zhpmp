@@ -1,0 +1,34 @@
+[project]
+name = "zhpmp"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Arcady Chumachenko", email = "arcady.chumachenko@gmail.com" }
+]
+dependencies = [
+    "selenium>=4.23.1",
+    "requests>=2.32.3",
+    "python-telegram-bot>=21.4",
+    "v>=1",
+    "openai>=1.42.0",
+]
+readme = "README.md"
+requires-python = ">= 3.8"
+
+[project.scripts]
+zhpmp = 'zhpmp.main:main'
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/zhpmp"]
+
